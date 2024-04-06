@@ -1,15 +1,11 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import "@/styles/globals.scss";
 // import { Workbench } from 'next/font/google';
+
 import { Montserrat } from 'next/font/google';
 import { useEffect } from 'react';
 
-
-
-
-
 const montserrat = Montserrat ({subsets: ['latin']});
-
 
 
 export default function App({ Component, pageProps }) {
