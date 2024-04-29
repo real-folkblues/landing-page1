@@ -1,3 +1,5 @@
+//Footer layout. Contains links and styled text and background color. 
+
 import React, { Component } from 'react';
 import Link from 'next/link';
 

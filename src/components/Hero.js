@@ -1,3 +1,6 @@
+//Page layout for main page. Can copy/paste this to create other pages and customize divs/containers etc. Currently set up with a title, subtitle, and image.
+
+
 import Image from 'next/image';
 import React, { Component } from 'react';
 import styles from '@/styles/Hero.module.scss';
