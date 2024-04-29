@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React, { Component } from 'react';
 import styles from '@/styles/Hero.module.scss';
 
@@ -14,14 +15,14 @@ class Hero extends Component {
                     <p className='col-md-6'>{subtitle}</p>
                     </div>
                     </div>
-                    {/* <div className={`${styles.cover_imgs_container} text-center d-flex justify-content-center`}>
+                    <div className={`${styles.cover_imgs_container} text-center d-flex justify-content-center`}>
                         <Image
-                         src="/images/phones/screen2.png"
+                         src="/images/typewriter.jpg"
                          alt="Screenshot of thing showing the main player w several comments."
-                         height={400}
-                         width={200}
-                         className='phone_shadow mt-5 d-none d-md-block'/>
-                    </div> */}
+                         height={480}
+                         width={640}
+                         className='typewriter_shadow mt-5 d-none d-md-block'/>
+                    </div>
                     </div>
                     </div>
                 </>

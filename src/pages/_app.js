@@ -15,6 +15,7 @@ export default function App({ Component, pageProps }) {
   return(
   <main className={montserrat.className}>
   <Component {...pageProps} />
+  
   </main>
 )
 }

@@ -2,3 +2,26 @@ body, html {
   width: 100%;
   overflow-x: hidden;
 }
+
+.typewriter_shadow {
+  filter: drop-shadow(0 10 20px black(0, 0, 0, 0.5))
+}
+
+#section_footer {
+  width: 100%;
+  background: blue;
+
+  a, span {
+    color: white;
+    font-size: .75em;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+  p{
+    color: white;
+    font-size: .5em;
+  }
+}

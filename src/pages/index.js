@@ -24,6 +24,7 @@ export default function Home ()
           title="Oh Give Me A Home"
           subtitle='where the muffalo roam' />
       </main>
+      
     </>
   );
 }
