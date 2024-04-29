@@ -14,6 +14,14 @@ class Hero extends Component {
                     <p className='col-md-6'>{subtitle}</p>
                     </div>
                     </div>
+                    {/* <div className={`${styles.cover_imgs_container} text-center d-flex justify-content-center`}>
+                        <Image
+                         src="/images/phones/screen2.png"
+                         alt="Screenshot of thing showing the main player w several comments."
+                         height={400}
+                         width={200}
+                         className='phone_shadow mt-5 d-none d-md-block'/>
+                    </div> */}
                     </div>
                     </div>
                 </>
