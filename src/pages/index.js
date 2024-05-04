@@ -21,8 +21,8 @@ export default function Home ()
       </Head>
       <main className={ `${ styles.main } ` }>
         <Hero
-          title="Oh Give Me A Home"
-          subtitle='where the muffalo roam' />
+          title="Landingu Peezi"
+          subtitle='project showcase'/>
       </main>
       
     </>

@@ -24,7 +24,7 @@ class Hero extends Component {
                          alt="Screenshot of thing showing the main player w several comments."
                          height={480}
                          width={640}
-                         className='typewriter_shadow mt-5 d-none d-md-block'/>
+                         className='typewriter_shadow mt-5 d-none d-md-block'></Image>
                     </div>
                     </div>
                     </div>
