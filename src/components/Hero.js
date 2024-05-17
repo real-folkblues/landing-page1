@@ -1,6 +1,6 @@
 //Page layout for main page. Can copy/paste this to create other pages and customize divs/containers etc. Currently set up with a title, subtitle, and image.
 
-
+import Button from "../components/Button";
 import Image from 'next/image';
 import React, { Component } from 'react';
 import styles from '@/styles/Hero.module.scss';
@@ -19,12 +19,28 @@ class Hero extends Component {
                     </div>
                     </div>
                     <div className={`${styles.cover_imgs_container} text-center d-flex justify-content-center`}>
-                        <Image
-                         src="/images/typewriter.jpg"
-                         alt="Screenshot of thing showing the main player w several comments."
-                         height={480}
-                         width={640}
-                         className='typewriter_shadow mt-5 d-none d-md-block'></Image>
+                        
+                            {/* <Image
+                                src="/images/indexContenders/index1.jpg"
+                                alt="Screenshot of thing showing the main player w several comments."
+                                height={ 480 }
+                                width={ 640 }
+                                className='typewriter_shadow mt-5 d-none d-md-block'></Image>
+                            <Image
+                                src="/images/typewriter.jpg"
+                                alt="Screenshot of thing showing the main player w several comments."
+                                height={ 480 }
+                                width={ 640 }
+                                className='typewriter_shadow mt-5 d-none d-md-block'></Image> */}
+                            <Image
+                                src="/images/indexContenders/index5.jpg"
+                                alt="Screenshot of thing showing the main player w several comments."
+                                height={ 480 }
+                                width={ 640 }
+                                className='typewriter_shadow mt-5 d-none d-md-block'></Image>
+                            <div>
+                                <Button text="Click me!" onClick={ () => console.log( "Button clicked!" ) } />
+                            </div>
                     </div>
                     </div>
                     </div>
